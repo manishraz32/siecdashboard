@@ -1,0 +1,402 @@
+/* Mobile First Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #F4F4F2;
+    padding: 12px 12px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.chip-container {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.chip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 8px 12px;
+    background-color: hsl(0, 3%, 66%);
+    font-size: 18px;  
+    flex: 1 1 100%;  
+}
+
+#dashboard {
+    color: white;
+    background-color: #0A6847;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.profile-card {
+    border-radius: 16px; 
+    border: 2px solid transparent;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(45deg, #0A6847,#0A6847,#0A6847, #0A6847, #0A6847, #ccffcc ); 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px 24px 12px 24px;
+    flex: 1 1 100%; 
+}
+
+
+.avatar-container {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+
+.profile-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+}
+
+.name {
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+.mange-button {
+    border: none;
+    width: 100%;
+    border-radius: 16px;
+    color: white;
+    font-weight: 600;
+    padding: 8px 0px;
+    background-color: #0A6847;
+}
+
+
+.price-card {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    flex: 1 1 100%; 
+}
+
+.content-container {
+    padding: 20px 24px 30px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+#sectional {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-color: #D6EFD8;
+}
+
+#special-btn {
+    background-color: white;
+}
+#acadimg-text {
+    color: black;
+}
+
+.logo {
+    margin-left: -6px;
+    display: flex;
+    gap: 2px;
+}
+
+.logo-container {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.logo-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight:  400;
+}
+
+.pte {
+    font-weight: 600;
+}
+
+.middle-part {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.middle-text {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.middle-text2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(56, 118, 29);
+}
+
+.desc {
+    font-size: 14px;
+}
+
+.explore-button {
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D6EFD8;
+    border-bottom-left-radius: 16px; 
+    border-bottom-right-radius: 16px;  
+}
+
+.explore-button {
+    display: flex;
+    gap: 2px;
+}
+
+.btn-text {
+    font-weight: bold;
+    color: #0A6847;
+}
+.arrow-container {
+    display: flex;
+    align-items: center;
+}
+
+/* middle button styles */
+
+.middle-buton {
+    border-radius: 4px;
+    padding: 12px;
+    width: 100%;
+    background-color: #0A6847;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.middle-buton p {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border: 0.1px solid gray;
+}
+
+/* bottom section styles */
+.bottom {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.bottom-header {
+    padding: 12px;
+    background-color: #0A6847;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: flex;
+    gap: 8px;
+
+}
+
+.bottom-header .header-text {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.header-text {
+
+}
+
+.progress-container {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #F4F4F2;
+    flex-wrap: wrap;
+}
+
+.progress-card {
+    flex: 1 1 100%;
+    padding:12px 8px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-btn {
+    padding: 6px 8px;
+    background-color: black;
+    color: white;
+    font-weight: 18px;
+    border-radius: 4px;
+}
+
+.middle-part {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.middle-part p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.middle-part .score {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #387F39;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #C7C8CC;
+}
+
+.innder-bar {
+    height: 20px;
+}
+
+.bar-container {
+    background-color: #C7C8CC;
+}
+
+
+
+/* utility class    */
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Larger screens */
+@media (min-width: 700px) {
+    .chip {
+        flex: 1 1 30%;  
+    }
+
+    .top {
+        flex-direction: row;
+    }
+
+    .profile-card {
+        flex: 1 1 40%;
+    }
+
+    .price-card {
+        flex: 1 1 40%; 
+    }
+    
+    .btn-container {
+        display: flex;
+        justify-content: end;
+    }
+    .middle-buton {
+        width: 30%;
+        text-align: right;
+    }  
+
+    .progress-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .progress-card {
+        flex: 1 1 45%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .chip {
+        flex: none;
+
+    }
+
+    .top {
+        flex-direction: row;
+    }
+
+    .profile-card {
+        flex: 1 1 23%;
+    }
+
+    .price-card {
+        flex: 1 1 23%; 
+    }
+    
+    .btn-container {
+        display: flex;
+        justify-content: end;
+    }
+    .middle-buton {
+        width: 15%;
+        text-align: right;
+    }  
+
+    .progress-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        padding: 20px;
+    }
+    
+    .progress-card {
+        flex: 1 1 23%;
+    }
+}
